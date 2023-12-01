@@ -11,7 +11,6 @@
   "scripts": {
     "build": "babel src --out-dir lib && browserify lib/index.js -s nkn --outfile dist/nkn.js && uglifyjs dist/nkn.js -c -m -o dist/nkn.min.js",
     "docs": "documentation build src/*/*.js -f html -o docs --sort-order alpha --shallow",
-    "prepare": "yarn flow && yarn build && yarn docs",
     "test": "jest",
     "pb": "protoc --js_out=import_style=commonjs,binary:. src/common/pb/*.proto"
   },
