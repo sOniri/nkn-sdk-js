@@ -38,7 +38,7 @@
     "streaming"
   ],
   "dependencies": {
-    "@nkn/ncp": "^1.1.1",
+    "@oniri/onirincp": "^1.0.0",
     "axios": "^0.21.1",
     "base-x": "^3.0.7",
     "buffer": "^5.4.3",
